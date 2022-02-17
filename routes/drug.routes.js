@@ -5,9 +5,9 @@ const controller = require("../controller/logic/drug.controller")
 module.exports = (app) => {
     app.get("/drug", (req, res, next) => {
         // prueba
-        res.send("Funciona bien")
+        // res.send("Funciona bien")
 
-        // controller.getAll(req, res, next)
+        controller.getAll(req, res, next)
     })
 
     app.post("/drug", (req, res, next) => {
