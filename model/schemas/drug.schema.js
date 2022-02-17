@@ -18,7 +18,7 @@ const drugSchema = new mongoose.Schema({
     },
     units: {
         type: "String",
-        required
+        required: true
     },
     expDate: {
         type: "String",
