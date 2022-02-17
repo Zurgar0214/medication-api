@@ -1,0 +1,24 @@
+{
+  "name": "medication-api",
+  "version": "1.0.0",
+  "description": "un CRUD de medicamentos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zurgar0214/medication-api.git"
+  },
+  "keywords": [
+    "medication",
+    "quantity",
+    "laboratory"
+  ],
+  "author": "Juan Diego Varon, Yonier Vasquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zurgar0214/medication-api/issues"
+  },
+  "homepage": "https://github.com/Zurgar0214/medication-api#readme"
+}
