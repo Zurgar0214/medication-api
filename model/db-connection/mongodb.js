@@ -24,7 +24,7 @@ module.exports = () => {
 
     mongoose.connection.on("SIGINT", () => {
         mongoose.connection.close(() => {
-            console.log("mongodb server shutting down!")
+            console.log(">>> EL SERVIDOR SE ENCUENTRA APAGADO")
         })
     })
 }
