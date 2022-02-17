@@ -1,0 +1,12 @@
+{
+    "db-connections": {
+        "mongodb": {
+            "host": "cluster0-lqcr6.mongodb.net",
+            "user": "medication_rest_api",
+            "password": "LZtCJ46PA4nwAKHI",
+            "dbname": "MedicationDB"
+        }
+    },
+    "server-port": 3000,
+    "sessionTime": 3600
+}
