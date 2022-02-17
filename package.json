@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Zurgar0214/medication-api/issues"
   },
-  "homepage": "https://github.com/Zurgar0214/medication-api#readme"
+  "homepage": "https://github.com/Zurgar0214/medication-api#readme",
+  "dependencies": {
+    "mongoose": "^6.2.2"
+  }
 }
