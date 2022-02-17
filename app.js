@@ -5,7 +5,7 @@
 /** Packages */
 const express = require("express")
 const config = require("config")
-const bodyParser = require("bordy-parser")
+const bodyParser = require("body-parser")
 
 /** App Configuration */
 const app = express();
@@ -18,8 +18,8 @@ const urlEncodedParser = bodyParser.urlencoded(
 app.use(jsonParser);
 app.use(urlEncodedParser);
 
-const ipFn = require("./middleware/getIpAddress");
-app.use("*", ipFn);
+// const ipFn = require("./middleware/getIpAddress");
+// app.use("*", ipFn);
 
 /** Methods */
 app.get("/", (req, res, next) => {
