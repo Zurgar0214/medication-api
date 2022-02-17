@@ -1,5 +1,9 @@
 /** Packages */
 const mongoose = require("mongoose");
+const db = require("../db-connection/mongodb")
+
+/** Start connection to data base */
+db()
 
 /** Using Schema */
 const schema = require("../schemas/drug.schema");

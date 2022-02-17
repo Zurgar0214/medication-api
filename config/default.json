@@ -1,7 +1,7 @@
 {
     "db-connections": {
         "mongodb": {
-            "host": "cluster0-lqcr6.mongodb.net",
+            "host": "cluster0.eunjr.mongodb.net",
             "user": "medication_rest_api",
             "password": "LZtCJ46PA4nwAKHI",
             "dbname": "MedicationDB"
