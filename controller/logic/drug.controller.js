@@ -76,8 +76,8 @@ exports.getByCode = (req, res, next) => {
     });
 };
 
-exports.deleteDrug = () => {
-    console.log(">>> Eliminando ... " + req.body.code)
+exports.deleteDrug = (req, res, next) => {
+
     drugDto.delete({ code: req.body.code }, (err, data) => {
         if (err) {
             return res.status(400).json(
