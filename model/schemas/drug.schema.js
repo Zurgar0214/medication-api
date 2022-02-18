@@ -24,7 +24,7 @@ const drugSchema = new mongoose.Schema({
         type: "String",
         required: true
     },
-    laboratoty: {
+    laboratory: {
         type: "String",
         required: true
     }

@@ -21,7 +21,7 @@ exports.createDrug = (req, res, next) => {
         presentation: req.body.presentation,
         units: req.body.units,
         expDate: req.body.expDate,
-        laboratoty: req.body.laboratoty
+        laboratory: req.body.laboratory
     }
 
     drugDto.create(drug, (err, data) => {

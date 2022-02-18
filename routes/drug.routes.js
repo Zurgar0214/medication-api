@@ -8,6 +8,6 @@ module.exports = (app) => {
     })
 
     app.post("/drug", (req, res, next) => {
-        // controller.createDrug(req, res, next)
+        controller.createDrug(req, res, next)
     })
 }
