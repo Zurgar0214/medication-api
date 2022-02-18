@@ -7,7 +7,19 @@ module.exports = (app) => {
         controller.getAll(req, res, next)
     })
 
+    app.get("/drug/bycode/:code", (req, res, next) => {
+        controller.getByCode(req, res, next);
+    });
+
     app.post("/drug", (req, res, next) => {
         controller.createDrug(req, res, next)
+    })
+
+    app.put("/drug", (req, res, next) => {
+        controller.updateDrug(req, res, next);
+    })
+
+    app.delete("/drug", (req, res, next) => {
+        controller.deleteDrug(req, res, next);
     })
 }
